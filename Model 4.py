@@ -8,9 +8,9 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import LatentDirichletAllocation as LDA
 
 # Initialize Reddit instance with appropriate credentials
-reddit = praw.Reddit(client_id='YOUR_CLIENT_ID',
-                     client_secret='YOUR_CLIENT_SECRET',
-                     user_agent='YOUR_USER_AGENT')
+reddit = praw.Reddit(client_id='My_CLIENT_ID',
+                     client_secret='My_CLIENT_SECRET',
+                     user_agent='My_USER_AGENT')
 
 # Collect user data
 user_data = {}
